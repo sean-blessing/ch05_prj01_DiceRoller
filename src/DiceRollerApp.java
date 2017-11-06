@@ -1,11 +1,13 @@
 
-
 import java.util.Scanner;
 
+/*
+ * This app will simulate dice rolls
+ */
 public class DiceRollerApp {
 
 	public static void main(String[] args) {
-		System.out.println("Dice Roller\n");
+		System.out.println("Welcome to the Dice Roller App!!!\n");
 		String choice = "y";
 		Scanner sc = new Scanner(System.in);
 		while (choice.equalsIgnoreCase("y")) {
